@@ -30,6 +30,16 @@ class Owner
   def self.reset_all 
   end 
   
+  def buy_cat(name) 
+    cat_name = Cat.new(name) 
+  end 
   
+  def buy_dog(name)
+    dog_name = Dog.new(name)
+  end 
+  
+  def buy_fish(name) 
+    fish_name = Fish.new(name) 
+  end
   
 end
