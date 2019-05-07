@@ -54,7 +54,7 @@ class Owner
   end 
   
   def sell_pets 
-    binding.pry 
+    @pets.values.flatten.each {|animals| animals.mood = "nervous"}
     @pets.clear
   end 
   
