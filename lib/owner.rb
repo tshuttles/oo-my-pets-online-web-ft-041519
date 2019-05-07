@@ -19,17 +19,6 @@ class Owner
   def say_species 
   end 
   
-  def buy_cat(name) 
-    cat_name = Cat.new(name) 
-  end 
-  
-  def buy_dog(name)
-    dog_name = Dog.new(name)
-  end 
-  
-  def buy_fish(name) 
-    fish_name = Fish.new(name) 
-  end 
   
   def self.all 
     @@all 
@@ -40,4 +29,7 @@ class Owner
   
   def self.reset_all 
   end 
+  
+  
+  
 end
