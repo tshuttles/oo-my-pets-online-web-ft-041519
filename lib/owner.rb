@@ -35,7 +35,7 @@ class Owner
     dog = Dog.new(name)
   end 
   
-  def buy_fish 
+  def buy_fish(fish)
     fish = Fish.new(name) 
     
   end
