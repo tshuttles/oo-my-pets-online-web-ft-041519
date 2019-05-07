@@ -52,7 +52,7 @@ class Owner
   end 
   
   def sell_pets 
-    @pets.each {|:dogs, pets|
+    @pets.each {|:dogs, pets| expect 
   end 
   
   def list_pets 
