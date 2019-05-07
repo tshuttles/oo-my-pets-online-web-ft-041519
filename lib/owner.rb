@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   
   attr_accessor :name, :pets 
@@ -52,6 +54,7 @@ class Owner
   end 
   
   def sell_pets 
+    binding.pry 
     @pets.clear
   end 
   
