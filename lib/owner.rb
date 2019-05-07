@@ -28,16 +28,16 @@ class Owner
   end 
   
   def buy_cat(name) 
-    cat_name = Cat.new(name) 
+    cat = Cat.new(name) 
   end 
   
   def buy_dog(name)
-    dog_name = Dog.new(name)
+    dog = Dog.new(name)
   end 
   
   def buy_fish 
-    fish_name = Fish.new(name) 
-    @pets << fish_name
+    fish = Fish.new(name) 
+    
   end
   
 end
